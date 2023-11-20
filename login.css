@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.Pinkky,a{
+    display: block;
+}
+#cont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color:aqua;
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+}
+form h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:aliceblue;
+    font-size: 40px;
+}
+form .Paisa
+{
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+ form #btn{
+    display: flex;
+    justify-content: space-between;
+ }
+button{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: green;
+    color:black;
+}
+#cancel{
+    background-color: yellow;
+}
+form a {
+    text-decoration: none; 
+    color: darkmagenta;
+}
+.fa-user-secret{
+    position: absolute;
+    left: 3%;
+    top: 60%;
+}
+#user{
+    position: relative;
+}
